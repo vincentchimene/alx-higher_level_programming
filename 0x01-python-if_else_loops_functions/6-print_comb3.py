@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-for num in range(0, 10):
-    for num2 in range(0, 10):
-        if num is 8 and num2 is 9:
-            print("{:d}{:d}".format(num, num2))
-        elif num < num2:
-            print("{:d}{:d}".format(num, num2), end=", ")
+for i in range(10):
+    for j in range(i, 10):
+        if i < j:
+            print("{:d}{:d}".format(i, j),
+                  end="\n" if i is 8 and j is 9 else ", ")
