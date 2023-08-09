@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
-# a function that print strings in uppercase followed by a new line
+# a function that print strings#!/usr/bin/python3
 def uppercase(str):
-    for i in str:
-        i = ord(i)
-        if 97 <= i <= 122:
-            i = i - 32
-        print("{:c}".format(i), end='')
-    print()
+    for i in range(len(str)):
+        upper = str[i]
+        if ord(str[i]) > 96 and ord(str[i]) < 123:
+            upper = chr(ord(str[i]) - 32)
+        print("{}".format(upper), end='')
+    print() in uppercase followed by a new line
