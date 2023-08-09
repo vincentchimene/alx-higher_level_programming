@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-# a function that prints numbers 1 - 100 but replaces multiples of 3 with fizz, 5 with buzz and those of 15 with fizzbuzz
+# a function that prints numbers 1 - 100
+# but replaces multiples of 3 with fizz, 5 with buzz and those of 15 with fizzbuzz
 def fizzbuzz():
     for i in range(1, 101):
         if (i % 15) == 0:
