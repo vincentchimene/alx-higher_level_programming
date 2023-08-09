@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-# Write a program that prints all possible different combinations of two digits.
-for i in range(10):
-    for j in range(i, 10):
-        if i < j:
-            print("{:d}{:d}".format(i, j),
-                  end="\n" if i is 8 and j is 9 else ", ")
+# Write a program that prints all possible different combinations of two digit.
+#!/usr/bin/python3
+for a in range(0, 8):
+    for b in range(a + 1, 10):
+        print("{:d}{:d}".format(a, b), end=', ')
+print("{:d}{:d}".format(a + 1, b))
