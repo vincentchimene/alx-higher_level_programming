@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import random   #because we will be using random function
+import random   # because we will be using random function
 import math
 number = random.randint(-10000, 10000)
 mod = number % 10 if number > 10 else number % -10
