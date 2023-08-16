@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-
-# prints the alphabet in uppercase, followed by a new line.
 def magic_calculation(a, b):
     from magic_calculation_102 import add, sub
     if a < b:
