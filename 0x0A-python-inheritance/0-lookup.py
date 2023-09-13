@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-The lookup function container that returns the list of available attributes and methods of an object
+The lookup function container
 """
 
 
@@ -8,6 +8,6 @@ def lookup(obj):
     """
     Args:
         obj: initial object
-        Returns: a list object
+        Returns: a list of object
     """
     return dir(obj)
