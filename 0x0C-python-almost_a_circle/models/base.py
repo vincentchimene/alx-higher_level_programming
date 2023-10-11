@@ -14,7 +14,7 @@ class Base:
     __nb_objects = 0
 
     def __init__(self, id=None):
-        """initiation method
+        """initiation methods
         args:
             id: id of object
         """
