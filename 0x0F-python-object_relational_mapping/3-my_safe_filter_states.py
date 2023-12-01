@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-A python script that is safe from MySQL injectionsand takes an argumeent and lists all states from the database hbtn_0e_0_usa
+A python script that is safe from MySQL injectionsand does task 2
 """
 
 import MySQLdb
