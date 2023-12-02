@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""A Python script that takes 2 arguments in order to 
+"""A Python script that takes 2 arguments in order to
 List 10 commits in a repo"""
 
 if __name__ == '__main__':
