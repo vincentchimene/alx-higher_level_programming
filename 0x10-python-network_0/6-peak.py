@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-""" A module that returns the peak of the list
+""" This module returns the peak of the list
 """
 
 
 def find_peak(list_of_integers):
-    """ A function that returns the peak of the list
+    """ This function returns the peak of the list
     """
     if (len(list_of_integers) == 0):
         return None
